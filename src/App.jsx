@@ -7,7 +7,13 @@ import NavPage from './pages/NavPage'
 
 function App() {
   return (
-    <div>Apjiup</div>
+
+    <>
+    <div>
+       <NavPage></NavPage>
+
+    </div>
+    </>
   )
 } 
 

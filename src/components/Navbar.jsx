@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to='/sell'>SELL WITH US</Link>
         <Link to='/support'>CUSTOMER SUPPORT</Link>
     </div>
-  )
+  ) 
 }
 
 export default Navbar
