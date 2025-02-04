@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
 import './index.css'
+import Navbar from './components/Navbar'
 
 
 
 function App() {
   return (
-    <div>Apjiup</div>
+    <div>
+      {/* <Navbar></Navbar> */}
+    </div>
   )
 }
 
