@@ -15,30 +15,32 @@ import Preorder from '../components/Preorder'
 import Sell from '../components/Sell'
 import Support from '../components/Support'
 import Navbar from '../components/Navbar'
+import Login from '../components/Login'
 
 const NavPage = () => {
   return (
     <div>
-        <div >
+        <div>
             <Navbar />
-
         </div>
+
 
         <Routes>
             <Route path='/' element={<Home />}/>
-            <Route path='gift' element={<Gift />}/>
-            <Route path='dates' element={<Dates />}/>
-            <Route path='perfumes' element={<Perfumes />}/>
-            <Route path='others' element={<Others />}/>
-            <Route path='clothes' element={<Clothes />}/>
-            <Route path='snacks' element={<Snacks />}/>
-            <Route path='crockery' element={<Crockery />}/>
-            <Route path='watches' element={<Watches />}/>
-            <Route path='mobiles' element={<Mobiles />}/>
-            <Route path='dryfrt' element={<Dryfrt />}/>
-            <Route path='preorder' element={<Preorder />}/>
-            <Route path='sell' element={<Sell />}/>
-            <Route path='support' element={<Support />}/>
+            <Route path='/gift' element={<Gift />}/>
+            <Route path='/dates' element={<Dates />}/>
+            <Route path='/perfumes' element={<Perfumes />}/>
+            <Route path='/others' element={<Others />}/>
+            <Route path='/clothes' element={<Clothes />}/>
+            <Route path='/snacks' element={<Snacks />}/>
+            <Route path='/crockery' element={<Crockery />}/>
+            <Route path='/watches' element={<Watches />}/>
+            <Route path='/mobiles' element={<Mobiles />}/>
+            <Route path='/dryfrt' element={<Dryfrt />}/>
+            <Route path='/preorder' element={<Preorder />}/>
+            <Route path='/sell' element={<Sell />}/>
+            <Route path='/support' element={<Support />}/>
+            <Route path='/login' element={<Login />}/>
         </Routes>
     </div>
   )

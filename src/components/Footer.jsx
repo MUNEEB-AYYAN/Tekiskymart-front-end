@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
         <div className="container mx-auto px-6">
         <div className="flex justify-around">
             <div>
-                <h3 className="text-lg font-semibold border-b-2 border-blue-900 pb-2">POPULAR</h3>
+                <h3 className="text-lg font-semibold border-b-1 border-blue-900 pb-2">POPULAR</h3>
                 <ul className="mt-3 space-y-2">
                     <li><a href="#" className="hover:text-blue-400">Sell With Us</a></li>
                     <li><a href="#" className="hover:text-blue-400">Pre-Order</a></li>
@@ -16,7 +17,7 @@ const Footer = () => {
 
             
             <div>
-                <h3 className="text-lg font-semibold border-b-2 border-blue-900 pb-2">OUR COMMITMENT</h3>
+                <h3 className="text-lg font-semibold border-b-1 border-blue-900 pb-2">OUR COMMITMENT</h3>
                 <ul className="mt-3 space-y-2">
                     <li>Delivery Within 24 Hours</li>
                     <li>Returns Without Questions</li>
@@ -27,7 +28,7 @@ const Footer = () => {
 
             
             <div>
-                <h3 className="text-lg font-semibold border-b-2 border-blue-900 pb-2">SERVICES</h3>
+                <h3 className="text-lg font-semibold border-b-1 border-blue-900 pb-2">SERVICES</h3>
                 <ul className="mt-3 space-y-2">
                     <li>Corporate Training</li>
                     <li>Corporate Trainers</li>
@@ -40,7 +41,7 @@ const Footer = () => {
 
             
             <div>
-                <h3 className="text-lg font-semibold border-b-2 border-blue-900 pb-2">CONTACT</h3>
+                <h3 className="text-lg font-semibold border-b-1 border-blue-900 pb-2">CONTACT</h3>
                 <p className="mt-3">
                     2nd Floor, Opposite WaterTank, <br />
                     WorkShop Corner, Nanded, <br />
@@ -48,7 +49,8 @@ const Footer = () => {
                 </p>
                 <p className="mt-2">+91 8625817334, +91 9890796149</p>
                 <p className="mt-2">Sales@Tekisky.Com</p>
-                <a href="#" className="mt-2 block hover:underline">Login</a>
+                <Link to='login' >Login</Link>
+                {/* className="mt-2 block hover:underline">Login */}
             </div>
         </div>
 

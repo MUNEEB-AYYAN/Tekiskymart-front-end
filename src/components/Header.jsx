@@ -11,7 +11,7 @@ const Header = () => {
     // ]
   return (
     <>
-    <div className='flex justify-between p-2 bg-blue-800 px-16'>
+    <div className='flex justify-between p-2 bg-blue-500 px-16'>
         <div className='flex p-2'>
            <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square1-128.png"
             className='w-[40px] rounded-full px-[2px]' 
