@@ -4,6 +4,7 @@ import './index.css'
 import Home from './components/Home'
 import Carousel from './components/carousel'
 import Carousel2 from './components/Carousel2'
+import ProductCard from './components/ProductCard'
 
 
 
@@ -16,6 +17,11 @@ function App() {
       <Carousel></Carousel>
       <br></br>
       <Carousel2></Carousel2>
+      <br></br>
+      <ProductCard></ProductCard>
+    
+      
+      
       
       
     </div>

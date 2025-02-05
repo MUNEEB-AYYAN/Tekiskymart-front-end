@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 const Carousel2 = () => {
   const settings = {
     dots: true,
@@ -19,35 +20,41 @@ const Carousel2 = () => {
   };
 
   const slides = [
-    { id: 1, img: "/img1.jpg", title: "Wood Top", price: "₹200" },
-    { id: 2, img: "/img2.jpg", title: "Golden Showpiece", price: "₹370" },
-    { id: 3, img: "/img3.jpg", title: "Razan Dates", price: "₹1600" },
-    { id: 4, img: "/img4.jpg", title: "Swiss Arabian", price: "₹600" },
-    { id: 5, img: "/img5.jpg", title: "Luxury Perfume", price: "₹1200" },
-    { id: 6, img: "/img6.jpg", title: "Antique Clock", price: "₹800" },
+    { id: 1, img: "/Ajmal musk.webp", title: "Ajmal Musk Rijali",  offerprice: "500" },
+    { id: 2, img: "/Aqua.jpeg", title: "Ajmal AQUA Floral", price: "₹400" },
+    { id: 3, img: "/kurta.png", title: "Kurta Pajama with Kali", price: "₹1000" },
+    { id: 4, img: "/Quick.jpg", title: "Quick Heal Pro", price: "₹600" },
+    { id: 5, img: "/Ramzaan.jpg", title: "Ramzan Dates", price: "₹1600" },
+    { id: 6, img: "/swiss.webp", title: "Swiss Arabian", price: "₹600" },
+      { id: 6, img: "/Golden.jpg", title: "Show Peace Golden Cycle", price: "₹370" },
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h2 className="text-xl font-bold text-center mb-4">Today's Special Deals</h2>
+    <div className="max-w-4x4 mx-auto p-6 max-h4x4 background c-black" >
+      <h2 className="text-xl font-bold text-center mb-4 ">Today's Special Deals</h2>
       <Slider {...settings}>
         {slides.map((slide) => (
           <div key={slide.id} className="p-2">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src={'https://tekisky-mart.s3.ap-south-1.amazonaws.com/images/1707493310436_1.webp'} alt={slide.title} className="w-full h-40 object-cover"/>
-              
+              <img src={slide.img} alt={slide.title} className="w-medium-100 h-35 object-cover"/>
               <div className="p-4">
-                
+              
                 <h3 className="font-semibold">{slide.title}</h3>
                 <p className="text-red-500 font-bold">Offer Price: {slide.price}</p>
               </div>
             </div>
+            
           </div>
+          
+          
         ))}
       </Slider>
     </div>
   );
 };
+
+
+
 
 export default Carousel2;
 
