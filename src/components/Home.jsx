@@ -1,3 +1,5 @@
+import { Carousel } from "bootstrap";
+
 export default function Categories() {
   const categories = [
     { name: "GIFT-ITEMS", image: "/jwelery.jpg" },
@@ -13,6 +15,8 @@ export default function Categories() {
   ];
 
   return (
+    <>
+    <Carousel />
     <div className="p-6">
       <h2 className="text-2xl font-semibold mb-4">Categories</h2>
       <div className="flex gap-6 overflow-x-auto">
@@ -30,5 +34,6 @@ export default function Categories() {
         ))}
       </div>
     </div>
+    </>
   );
 }
