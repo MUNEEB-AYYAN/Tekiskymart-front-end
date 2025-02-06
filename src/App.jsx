@@ -1,34 +1,32 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
 import './index.css'
+
 import NavPage from './pages/NavPage'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Login from './components/Login'
+import Login from './components/Login'   
+import { useLocation } from 'react-router-dom'
 
-const App = () => {
-  // const [showLogin, setShowLogin] = useState(false)
+function App() {
+
+  const location = useLocation();
   return (
     <>
-    <div className='overflow-x-hidden'>
-      
-      <div>
-        <Header></Header>
-        <NavPage></NavPage>
+    {location.pathname !== "/login" ?
+      <div className='overflow-x-hidden'>
+        <Header />
+        <NavPage />
         <Footer /> 
-      </div>
+      </div>  
+    :
+      <Login />
+     }
+    
 
-      <div >
-        <Login />
 
-      </div>
-
-
-      
-
-    </div>
     </>
   )
 }
 
-export default App  
+export default App
