@@ -77,7 +77,7 @@ export default function PreOrderForm() {
       
       <button
         type="submit"
-        className="ml-35 bg-blue-600 text-white p-3  rounded hover:bg-blue-700"
+        className="ml-35 bg-blue-600 text-white p-3 my-2 rounded hover:bg-blue-700"
       >
         Submit Pre Order
       </button>
