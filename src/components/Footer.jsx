@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className=" bg-gray-900 text-white py-10">
+    <footer className=" bg-gray-900 mt-2 text-white py-10">
         <div className="container mx-auto px-6">
         <div className="flex justify-around">
             <div>
@@ -66,12 +66,12 @@ const Footer = () => {
             
             <button
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="bg-blue-500 p-3 rounded-full shadow-lg hover:bg-blue-600 transition"
+                className="bg-blue-700 p-3 rounded-full shadow-lg hover:bg-blue-600 transition"
             >
                 Up arrow
             </button>
             
-            <button className="bg-blue-600 p-3 rounded-full shadow-lg hover:bg-blue-700 transition">
+            <button className="bg-blue-700 p-3 rounded-full shadow-lg hover:bg-blue-700 transition">
                 msg
             </button>
         </div>

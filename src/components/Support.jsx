@@ -50,12 +50,9 @@ import { MapPin, Phone, AtSign } from "lucide-react";
         </div>
       </div>
 
-      <div>
-        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3525792798255!2d77.3026939737395!3d19.17979674870869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd1d7502795a5c1%3A0x15ded39c097470bd!2sTekisky%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1738755172032!5m2!1sen!2sin" 
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"  ></iframe> */}
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3525792798255!2d77.3026939737395!3d19.17979674870869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sF0x3bd1d7502795a5c1%3A0x15ded39c097470bd!2sTekisky%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1738755294154!5m2!1sen!2sin"
- width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div className="m-8 border-1 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3525792798255!2d77.3026939737395!3d19.17979674870869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sF0x3bd1d7502795a5c1%3A0x15ded39c097470bd!2sTekisky%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1738755294154!5m2!1sen!2sin"
+        width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     

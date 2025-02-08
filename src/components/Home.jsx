@@ -1,5 +1,15 @@
 import Carousel from './carousel';
 import img1 from '../assets/images/jwelery.jpg'
+import { Gift } from 'lucide-react';
+import Carousel2 from './Carousel2';
+import Dryfrt from './Dryfrt';
+import Mobiles from './Mobiles';
+import Watches from './Watches';
+import Crockery from './Crockery';
+import Snacks from './Snacks';
+import Clothes from './Clothes';
+// import Dates from './Dates';
+
 
 
 export default function Categories() {
@@ -37,6 +47,19 @@ export default function Categories() {
       </div>
     </div>
     <Carousel />
+    <div className='mt-2'>
+      <Carousel2 />
+    </div>
+    <Gift  />
+    {/* <Dates /> */}
+    <Clothes />
+    <Snacks />
+    <Crockery />
+    <Watches />
+    <Mobiles />
+    <Dryfrt />
+
+
     </>
   );
 }
